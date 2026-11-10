@@ -18,12 +18,10 @@ class WelcomePlugin(commands.Cog):
         member_count = member.guild.member_count
 
         message_content = (
-            f"Thank you for joining **<:AC_Tail:1547837488297418752> Air Canada Virtual**, {member.mention} ! "
-            f"You're a part of our {member_count} passengers ❤️.\n\n"
-            f"> We are dedicated to deliver a premium flight experience for all our passengers. "
-            f"Operating out of our main hub in Toronto, we proudly *Fly the Flag* as "
-            f"**<:Staralliance:1547838369520820224> A Star Alliance Member**.\n\n"
-            f"Having trouble? Simply DM <@1493358854044516493> and our team will assist you!"
+            f"Thank you for joining **<:tail:1531370296714461307> Air Canada Virtual**, {member.mention} ! "
+            f"You're a part of our {member_count} members.\n\n"
+            f"> We are dedicated to deliver an incredible flight experience for all our passengers and proudly *Fly the Flag* as **<:Staralliance:1547838369520820224> A Star Alliance Member**.\n\n"
+            f"Struggling with anything? Simply DM <@1493358854044516493> and our Support Team will assist you!"
         )
 
         try:
